@@ -5,4 +5,7 @@ authors = ["Bernd Busse <bernd@busse-apps.de>"]
 edition = "2018"
 
 [dependencies]
+getopts = "0.2"
+greetd_ipc = { version = "0.6", features = ["sync-codec"] }
+nix = "0.17"
 termion = "1.5"
